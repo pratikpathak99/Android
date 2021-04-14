@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "769492420834",
+    "project_id": "authentication-f7bcd",
+    "storage_bucket": "authentication-f7bcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769492420834:android:46884d801454b695db36bb",
+        "android_client_info": {
+          "package_name": "com.pratik.authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769492420834-dbasmop7qr1j5c0rt9jm6ipego80u23e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTiyTpH1DtHNc5VL7Zbl17PKmHmv1xzGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769492420834-dbasmop7qr1j5c0rt9jm6ipego80u23e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
