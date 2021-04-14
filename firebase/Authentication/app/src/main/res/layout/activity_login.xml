@@ -54,6 +54,17 @@
         android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Login With OTP"
+        android:textColor="#363636"
+        android:textSize="13dp"
+        android:onClick="opt"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="you don't have account already?"
         android:textColor="#363636"
         android:textSize="13dp"
