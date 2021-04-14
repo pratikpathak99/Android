@@ -22,14 +22,11 @@ public class Login extends AppCompatActivity {
     private EditText password;
     private ProgressDialog progressDialog;
     private FirebaseAuth firebaseAuth;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
         getSupportActionBar().hide();
-
         firebaseAuth = FirebaseAuth.getInstance();
         progressDialog= new ProgressDialog(this);
         emailid=(EditText)findViewById(R.id.EditText_id);
@@ -40,7 +37,6 @@ public class Login extends AppCompatActivity {
         //sing in the user..
         final String email = emailid.getText().toString().trim();
         String psd = password.getText().toString().trim();
-
         if(TextUtils.isEmpty(email))
         {
             Toast.makeText(this, "Please enter Email Id", Toast.LENGTH_SHORT).show();
@@ -62,9 +58,7 @@ public class Login extends AppCompatActivity {
                 if(task.isSuccessful())
                 {
                     // Toast.makeText(MainActivity.this, "Hello User!!", Toast.LENGTH_SHORT).show();
-
                     //verified email id
-
                     if(firebaseAuth.getCurrentUser().isEmailVerified())
                     {
                         progressDialog.cancel();
