@@ -84,4 +84,9 @@ public class Login extends AppCompatActivity {
         Intent nextActivity = new Intent(getApplicationContext(),Sing_Up.class);
         startActivity(nextActivity);
     }
+
+    public void opt(View view) {
+        Intent nextActivity = new Intent(getApplicationContext(),PhoneAuth.class);
+        startActivity(nextActivity);
+    }
 }
