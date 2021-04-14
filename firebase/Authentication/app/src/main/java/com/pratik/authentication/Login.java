@@ -68,7 +68,7 @@ public class Login extends AppCompatActivity {
                     if(firebaseAuth.getCurrentUser().isEmailVerified())
                     {
                         progressDialog.cancel();
-                        Intent nextActivity = new Intent(getApplicationContext(),Welcome_Page.class);
+                        Intent nextActivity = new Intent(getApplicationContext(),Realtime_Database.class);
                         startActivity(nextActivity);
                     }
                     else
