@@ -4,9 +4,9 @@ $name=$_POST["name"];
 $status="1";
 
 $servername = "localhost";
-$username = "id10666014_pratik";
-$password = "UU]edlgb4uB-ZIcr";
-$dbname = "id10666014_pratik_api";
+$username = "";
+$password = "";
+$dbname = "";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
