@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Andoird_Material_UI_Login_Page_Design"
